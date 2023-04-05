@@ -1,15 +1,15 @@
 # TestRail Reporter for Cypress
 
-[![version](https://img.shields.io/npm/v/hanoi-cypress-testrail-reporter.svg)](https://www.npmjs.com/package/hanoi-cypress-testrail-reporter)
-[![downloads](https://img.shields.io/npm/dt/hanoi-cypress-testrail-reporter.svg)](https://www.npmjs.com/package/hanoi-cypress-testrail-reporter)
-[![MIT License](https://img.shields.io/github/license/vietnq254/hanoi-cypress-testrail-reporter.svg)](https://github.com/vietnq254/hanoi-cypress-testrail-reporter/blob/master/LICENSE.md)
+[![version](https://img.shields.io/npm/v/qa-cypress-testrail-reporter.svg)](https://www.npmjs.com/package/qa-cypress-testrail-reporter)
+[![downloads](https://img.shields.io/npm/dt/qa-cypress-testrail-reporter.svg)](https://www.npmjs.com/package/qa-cypress-testrail-reporter)
+[![MIT License](https://img.shields.io/github/license/lyn-inquirer/qa-cypress-testrail-reporter.svg)](https://github.com/lyn-inquirer/qa-cypress-testrail-reporter/blob/master/LICENSE.md)
 
 Publishes [Cypress](https://www.cypress.io/) runs on TestRail.
 
 ## Install
 
 ```shell
-$ npm i cypress-testrail-reporter-qa --save-dev
+$ npm i qa-cypress-testrail-reporter --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Add reporter to your `cypress.json`:
 
 ```json
 ...
-"reporter": "cypress-testrail-reporter-qa",
+"reporter": "qa-cypress-testrail-reporter",
 "reporterOptions": {
   "domain": "yourdomain.testrail.com",
   "username": "username",
@@ -93,7 +93,7 @@ You can read the whole TestRail documentation [here](http://docs.gurock.com/).
 
 ## Author
 
-Sarah
+Lyn
 
 ## License
 
@@ -101,6 +101,7 @@ This project is licensed under the [MIT license](/LICENSE.md).
 
 ## Acknowledgments
 
+* [NGUYEN Viet](https://github.com/vietnq254/), owner of the [hanoi-cypress-testrail-reporter](https://github.com/vietnq254/hanoi-cypress-testrail-reporter) repository that was forked.
 * [Milutin Savovic](https://github.com/mickosav), author of the [cypress-testrail-reporter](https://github.com/Vivify-Ideas/cypress-testrail-reporter) repository that was cloned.
 * [Pierre Awaragi](https://github.com/awaragi), owner of the [mocha-testrail-reporter](https://github.com/awaragi/mocha-testrail-reporter) repository that was forked.
 * [Valerie Thoma](https://github.com/ValerieThoma) and [Aileen Santos](https://github.com/asantos3026) for proofreading the README.md file and making it more understandable.
